@@ -13,6 +13,7 @@ y manejo de caché con redis
 
 ## Para la instalación de los requisitos
 Instalar node.js desde su página oficial: https://nodejs.org/en
+
 Instalar  docker y docker-compose desde su página oficial: https://www.docker.com/get-started
 
 
@@ -28,9 +29,11 @@ Instalar  docker y docker-compose desde su página oficial: https://www.docker.c
 
 # Uso 
 Una vez que los contenedores estén en marcha (app-1, db-1 y redis-1) la API estará disponible en:
+
 http://localhost:3000
 
 Para verificar los endpoint y la documentación de Swagger, ingresa a:
+
 http://localhost:3000/swaggerIndex
 
 # Para detener los contenedores:
