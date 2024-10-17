@@ -10,6 +10,7 @@ y manejo de caché con redis
 - Docker
 - Docker Compose
 - Node.js
+- Puerto 3000 libre
 
 ## Para la instalación de los requisitos
 Instalar node.js desde su página oficial: https://nodejs.org/en
@@ -20,11 +21,17 @@ Instalar  docker y docker-compose desde su página oficial: https://www.docker.c
 ## Para la instalación de la API
 
 1. Clona este repositorio en el directorio de tu preferencia:
+
     git clone https://github.com/OsvaldoMrn/PokedexApi
+
 2. Instala las dependencias de node.js:
+
     npm install
+    
 3. Construye y levanta los contenedores usando docker-compose:
+
     docker-compose build
+
     docker-compose up -d
 
 # Uso 
